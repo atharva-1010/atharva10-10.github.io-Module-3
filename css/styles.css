@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(6, 27, 0);
+}
+
+#header-nav{
+    background-color: rgb(21, 255, 0);
+    border: 0;
+    border-radius: 0;
+    
+}
+
+.container{
+    width: auto;
+    margin-left: auto;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-brand{
+    padding-top: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar-header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #000;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:  0.75;
+}
+
+#nav-list{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgb(21, 255, 0);   
+}
+
+#nav-list a{
+    color: #000;
+    text-align: center;
+}
+
+#nax-list a:hover{
+    background: #951C49;
+}
+
+.navbar-header buttton.navbar-toggle, 
+.navbar-header .icon-bar{
+    border: 1.5px solid #222;
+}
+
+.navbar-header button.navbar-toggle{
+    clear:both;
+    margin-top: -40px;
+}
+
+#nav-list hr{
+    /* border: solid black; */
+    width: 100%;
+    border-width: 2px;
+    border-color: black;
+    margin: 3px;
+}
+
+#nav-list li:nth-child(1) > a{
+    padding-bottom: 2px;
+}
+
+#nav-list li:nth-child(2) > a{
+    padding-top: 0;
+    padding-bottom: 2px;
+}
+
+#nav-list li:nth-child(3) > a{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#main-content h2{
+    color:white;
+    padding-bottom: 20px;
+}
+
+#main-content h3{
+    color: black;
+    font: larger;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#main-content div{
+    border: 2px solid black;
+    padding-top: 15px;
+    background-color: darkgray;
+    padding: 0 20px 20px 20px;
+}
